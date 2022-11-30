@@ -59,3 +59,30 @@ body{
     transform: scale(1.05);
     transition: 0.35s ease-in-out;
 }
+/* app desc section */
+#app-desc-section{
+height: 100vh;
+}
+
+/* media queries */
+
+@media screen and (max-width: 430px){
+    .btn-container{
+       flex-direction: column;
+    }
+    #intro-section-container button{
+        margin: 10px;
+        width: 250px;
+        padding: 10px;
+        box-shadow: 0.5px 1px 1px 0.5px #888;
+        font-size: 15px;
+    }
+    #intro-section-container p{
+        max-width: 360px;
+        margin: 20px;
+    }
+    #intro-section-container h1{
+        font-size: 35px;
+        width: 90%;
+    }
+}
